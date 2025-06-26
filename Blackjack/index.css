@@ -17,6 +17,7 @@ body{
     gap: 20px;
     height: 100vh;
     font-weight: 900;
+    overflow: hidden;
 }
 
 h1{
@@ -41,4 +42,8 @@ button{
 
 .new{
     margin-top: -15px;
+}
+
+#message-el{
+    white-space: nowrap;
 }
