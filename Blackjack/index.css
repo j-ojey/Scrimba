@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("./images/table.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100vh;
+    font-weight: 900;
+}
+
+h1{
+    color: goldenrod;
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+button{
+    padding: 8px 5px;
+    width: 150px;
+    border: none;
+    border-radius: 6px;
+    color: rgb(7, 80, 37);
+    font-weight: bold;
+    background-color: goldenrod;
+}
+
+.new{
+    margin-top: -15px;
+}
